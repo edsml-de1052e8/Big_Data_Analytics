@@ -72,8 +72,18 @@ Difference between offline and online
 Optimal sensor placement: maximisig the quality of data collected by sensors, estimating where to best place them.
 Parameter Estimation:
 
+**Dealing with data gaps**
+- Deep assimilation
 
+### Twitter API
 
+- Application Programming Interface: allows apps to communicate data between each other eg. in a restaurant the APIs are the equivalent of a waiter
+- Allow you to connect to endpoints of the internet
+- In Python, you can do this using the request library, a library used for making HTTP requests
+- You can specify in the query which fields you would like to be returned in the JSON tweet object
+- Information about users, mentions, metrics and metadata can be incldued
 
+- Javascript object notation (JSON): lanaguage used by APIs to transfer information. Open standard file froamt and data interchange format using human-readable text to store and transmit data objects consisting of attribute-value pairs
+- JSON can be parsed into an object using the json library in Python
 
 
