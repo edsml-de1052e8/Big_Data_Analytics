@@ -67,8 +67,18 @@ NB: make sure you reach the minimum when you put the number of iterations, jus t
 ### Back Propagation
 
 
+- This usually happens in the background in Tensorflow
+- gradient descent needs to minimise loss function by changing the weights, and modify those weights as you descend.
+- This is referred to as h, but also as learning rate for the purpose of ML
+- Loss function: takes the ouput of the final layer and the expected output from the training set
+- Need to find the gradient of the loss function basically
+- the activation function of the final layer is multiplied by the ouput of the previous layer (?)
+- Chain rule: preactivation of z dependent on L of previosu layer (??)
+- a is f(z)
 
-
+- To need to pick a random point from our training method, to make the technique less computationally heavy  -> stochastic gradient descent
+- loss: comparison between output from training set to the output 
+- Repeat process until neural network is trained -> when it reaches the minimum
 
 
 
