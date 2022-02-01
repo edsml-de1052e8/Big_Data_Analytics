@@ -23,4 +23,59 @@ We can write this as z= W pow(T) * x
 
 - Still have m inputs, all neurons in the first nlayer can see inputs, then all neurons per single layer go in one weight matrix w in layer one.
 - Forward propagation : the input for one layer is going to be the input for the next layer, cascading
-- 
+- Hidden layer: combines the features to the way it thinks it should to predict the output 
+
+W(1)T * x -> fist layer output 
+This then goes in to the second layer 
+
+**Activation Function**
+
+- To ensure non-linearity...
+
+**Rectified LU**
+
+- ...
+
+Sigmoid logistic function: derivative always positive, output in [0,1] range so can be interpreted as probability.
+Hyperbolic tangent: between [-1,1] 
+Softmax function: modified to be in range between [0,1]
+
+Output layer and its activation function
+- For single class classification and regression problems we need one neuron in the output layer
+- In multi-class classification we need 
+
+**Gradient descent**
+
+- Iterative method to find a minimum of a differentiable function (optimisation)
+- Starting from point x0 how can we iteratively approach the minimum of f(x).
+- Algorithm: initialise x-i-1 = x0
+- We compute the derivative f'(x) and move xi = xi-1 - hf'(xi-1)
+
+First step:
+- calculate derivative
+- Find the starting point
+- Find the step size
+- Find the gradient
+- And calculate function until a set number of iterations
+NB: make sure you reach the minimum when you put the number of iterations, jus try and change the number of iterations and test it until you reach the point
+- You can also change the time step to find the minimum faster, but you run the risk of getting the wrong minimum  and jumping to another part of the function
+- Another issue that can arise is that you can get different minimums depending on where you start especially if it is a function with multiple troughs.
+
+-> Exercise 1: can assume it has 2 input variables
+
+
+### Back Propagation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
