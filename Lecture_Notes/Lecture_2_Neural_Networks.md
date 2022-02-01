@@ -80,6 +80,24 @@ NB: make sure you reach the minimum when you put the number of iterations, jus t
 - loss: comparison between output from training set to the output 
 - Repeat process until neural network is trained -> when it reaches the minimum
 
+**Initialisation**
+Before doing the gradient, need to initialise the weights: first randomly ( so as not to introduce symmetry) and also need to have values to be near zero 
+
+### Tensorflow
+
+- Free and open source, focuses on neural network and developed by Google Brain Team for internal Google use
+- ```pip install tensorflow```
+- Extra tip for Python: use ```pathlib``` library to avoid hardcoding file paths
+- NB: to make sure that all values in the table are floating point values -> conver to flat using ```as.type(float32)```
+
+Application:
+- Can also encode the string (eg. g =1, b =0) using scikit learn's ```LabelEncoder```
+- Fit it
+- Then put that as train/test split eg. 0.3
+- When you put the input in layer one eg. 10, Tensorflow will assume that that is the case in the second layer (so no need to put it)
+
+Optimiser: eg. SGD, but also can look for others on tensorflow docs
+Loss: in a binary classification proble use ...
 
 
 
