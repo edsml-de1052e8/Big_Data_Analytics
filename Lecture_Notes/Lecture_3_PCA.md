@@ -37,3 +37,21 @@ The parameter k has to be large enough to allow fitting the data but also small 
 
 NB: When you cut the data, be careful to keep value of k for good accuracy but also good performance in terms of running time.
 
+After PCA: this means that the new variables are uncorellated with one another and are linear combinations of one another.
+So the output is strictly linear -> issue when you don't want this on the application side or when the solution seeked is complex (not linear).
+
+NB: standardising step = computing the mean, variance, std, covariance etc
+
+### Assignement Info 
+
+- Air pollution indoor: Projection and then interpolation 
+- Make sure you have a slice of what is happening at a specific height eg. 1.5m in the dataset
+- So cutting the room at that level for 2 D space instead of 3D at different times
+
+- Second dataset is RGB and is a picture of what is happening at this slice
+- Submit the error and the time
+
+
+
+
+
