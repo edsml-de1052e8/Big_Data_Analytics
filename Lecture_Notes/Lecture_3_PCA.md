@@ -52,6 +52,35 @@ NB: standardising step = computing the mean, variance, std, covariance etc
 - Submit the error and the time
 
 
+## Part II: Hgh Performance Computing and the Cloud 
+
+- General purpose computer: smartphones, laptop
+- Memory bottleneck 
+- Server: computer that processes your request eg. google search on your phone, mounted on a rack cabinet somewhere else in the world eg. Ireland or Iceland (cold countries that allow for cooling)
+- They have higher CPU and memory and storage
+- Supercomputer: when one remote server is not enough , when we need more than one computer. 
+- Clusters/supercomputer: multiple servers
+- Power of supercomputer: FLOPS, flop/s, how many floating point operations you can do in a second
+- Our personal computer have 10^11-13 flops while superocmputer today can do 10^17
+- Individual servers of the supercomputer are called nodes
+- They have different CPU, different disks although they may share disk space between nodes
+- Compute node: where you do the actual computations
+- Scheduler: software to interact with compute node
+- On an HPC system the scheduler manages which jobs runs where and when
+- Parallelising: running code on different nodes at the same time to make it run faster but it is expensive, time consuming and difficult.
+
+**Cloud**
+- any computer that is not in the same room as you are basically, remote server eg. dropbox, google collab
+- 
+
+
+
+
+
+
+
+
+
 
 
 
