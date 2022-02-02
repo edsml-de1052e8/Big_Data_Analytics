@@ -35,5 +35,5 @@ The parameter k is the largest values in a matrix S.
 The parameter k has to be large enough to allow fitting the data but also small enough to filter out non relevant representational detail.
 
 
-
+NB: When you cut the data, be careful to keep value of k for good accuracy but also good performance in terms of running time.
 
