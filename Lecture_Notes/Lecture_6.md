@@ -36,7 +36,6 @@ Can be classification or regression.
 **Unsupervised learning**: ML algorithms to analyse and cluster unlabelled data sets. These algorithms discover hidden patterns in data without the need for human intervention. Used for clustering, association and dimensionality reduction.
 
 
-
 ### Encoder
 
 - Encoding means to convert data into a required format
