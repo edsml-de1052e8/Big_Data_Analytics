@@ -12,13 +12,22 @@
 
 - NB: Validation accuracy goes down when train/test split is unbalanced eg. high training set and small validation set (0.8/0.2)
 
-### Representativty of Training Data
+### Representativty of Training Data 🧏
 
 - If the training data is not representative enough of the problem you are trying to solve, best to add more  representative data to generalise the model better
 eg. occurence of cancer for any individual in a population, training a model on samples coming from male population only results in bias 
 
 
+**Forward Selection**
+- Start with a model with no variables then at every step check all the variables and select the one that increases validation accuracy or another metric the most and add it to the model
+- Stopping criteria: when there are no more variables to add or when the metric doesn't increase enough eg. validation accuracy does not increase by at least 0.5%
 
+**Backward Selection**
+- Start with a model containing all the variables, at every step *remove* all the variables that have the least impact on the model  eg. reduces the validation accuracy the least. Stopping criteria is when there are no more variables to remove or when the metric decreases too much eg. validation accuracy doesn't increase by at least 0.5%
+- In these two methods you are still learning at every step
+
+**To prevent overfitting: train-test-validate**
+-test set: part of he dataset that we only use at the end of the analysis to evaluate how our final model will perform on new data, the final one we report.
 
 
 
