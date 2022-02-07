@@ -30,18 +30,29 @@ eg. occurence of cancer for any individual in a population, training a model on 
 -test set: part of he dataset that we only use at the end of the analysis to evaluate how our final model will perform on new data, the final one we report.
 
 
+**Supervised learning** : ML approach defined by its use of labelled datasets. These are designed to train or sueprvise algorithms into classifying data or predicting outcomes accurately. Using labeled inputs and outputs the model can measure its accuracy and learn over time.
+Can be classification or regression.
+
+**Unsupervised learning**: ML algorithms to analyse and cluster unlabelled data sets. These algorithms discover hidden patterns in data without the need for human intervention. Used for clustering, association and dimensionality reduction.
 
 
 
+### Encoder
 
+- Encoding means to convert data into a required format
+- Autoencoder: unsupervised artificial neural network designed to learn an identity function in an unsupervised way to reconstruct the original input while compressing the data in the process so as to discover a more efficient and compressed representation.
+- Autoencoders attempt to replicate its input as closely as the output. Learns a reduced representation called latent space. It is non linear representation.
 
+Characteristics:
+- Data specific
+- Unsupervised
+- Not loss-less
 
+- Encoder network: it translates original high dimension input into latent low-dimensional code. input size is larger than output size
+- Decoder network: recovers data from the code, likely with larger and larger output layers
 
-
-
-
-
-
+- so with autoencoder you are working on the delta part of the errors, the perturbation of the data/ noise.
+- 
 
 
 
