@@ -26,6 +26,9 @@ Not enough to just have observations, then problem is mathematically ill-posed s
 Local minimum
 
 Uses a Kalman Filter: data assimilation method 
+
+Kalman gain matrix: K= BH (transpose) * (HBH transpose + R)^-1
+
 Uses B, H , R
 R: Observation error covariance
 H: Obserbation Operator
