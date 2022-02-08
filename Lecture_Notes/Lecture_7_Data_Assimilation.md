@@ -21,4 +21,12 @@ In a error covariance matrix, the non diagonal values are the error correlation 
 Not enough to just have observations, then problem is mathematically ill-posed so why we combine both inputs
 
 
+**Tikhonov Regularisation**
 
+Local minimum
+
+Uses a Kalman Filter: data assimilation method 
+
+**Notations and Assumptions** 
+
+Thru data assimilation we aim to obtain an optimal estimation x of the true state which can be a physical field.
