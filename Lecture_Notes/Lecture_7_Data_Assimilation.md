@@ -18,7 +18,7 @@ Both undersampling and oversampling can be in a supervised and unsupervised way 
 
 In a error covariance matrix, the non diagonal values are the error correlation between the different points eg. different sensors in a room, so if they are zero, there is no correlation. -> Not realistic in weather forecasting.
 
-
+Not enough to just have observations, then problem is mathematically ill-posed so why we combine both inputs
 
 
 
