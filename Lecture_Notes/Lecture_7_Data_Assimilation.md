@@ -3,6 +3,21 @@
 Data assimilation has different definitions depending on the data eg. atmospheric, mathematical etc
 For a computationally intensive problem.
 
+Put together forecasting initial input data and observed data, combine and use it to make a new forecast.
+
+Data assimilation is key to minimise error propagation.
+
+**Bayes Theorem: Bayesian Data assimilation**
+
+Merging the two overlaps in data eg. observations and initial inputs with errors
+
+When dealing with imbalanced data, one way to deal with it is through undersampling or oversampling.
+Can use oversampling when big data set is very meaningful and you don't want to lose that specific data.
+
+Both undersampling and oversampling can be in a supervised and unsupervised way although supervised is consequentially not random.
+
+In a error covariance matrix, the non diagonal values are the error correlation between the different points eg. different sensors in a room, so if they are zero, there is no correlation. -> Not realistic in weather forecasting.
+
 
 
 
