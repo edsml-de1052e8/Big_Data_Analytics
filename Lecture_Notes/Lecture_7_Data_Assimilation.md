@@ -26,6 +26,12 @@ Not enough to just have observations, then problem is mathematically ill-posed s
 Local minimum
 
 Uses a Kalman Filter: data assimilation method 
+Uses B, H , R
+R: Observation error covariance
+H: Obserbation Operator
+B: Background error covariance
+
+
 
 **Notations and Assumptions** 
 
