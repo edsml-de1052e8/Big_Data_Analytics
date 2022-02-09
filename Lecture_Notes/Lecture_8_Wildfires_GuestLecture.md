@@ -28,6 +28,9 @@ Cons
 
 **SVD AE**
 
+- PCA compresses and gives latent space directly, while SVDAE does that iteratively, so 
+
+
 Cons
 - Has more steps so more expensive to compute, and takes longer time
 
