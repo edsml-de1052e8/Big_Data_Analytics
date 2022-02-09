@@ -26,7 +26,7 @@ Cons
 - Reconstructs PCs
 
 
-**SVD AE **
+**SVD AE**
 
 Cons
 - Has more steps so more expensive to compute, and takes longer time
@@ -43,6 +43,7 @@ Can generate unsee data in latent space to generate some noise to test our data 
 
 - When you don't know covariance matrix, can do iterative method until you find it.
 - Latent assimiltion: data assimilation in the latent space
+- Do some preprocessing so as to be in the same latent space then do the encoding/PCA in the latent space, then decompress using decoder/PCA etc
 
 
 Assessment: will be reduced ordering and latent assimilation.
