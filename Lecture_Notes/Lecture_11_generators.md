@@ -31,6 +31,24 @@ So this code does 4 jobs in parallel.
 
 ### Cython
 
+```%load_ext cython```
+
+99% of the time to use Cython to convert from Python to C you need to explicitly tell the datatypes of the variables.
+In some cases writing in Cython, means code computes way faster
+Start by copy pasting your function, decorate your function with Cython things then compile it.
+Runtime can be as fast as 40 times faster.
+
+NB: output of Cython will not be exactly the same as Python, there might be some truncation errors as well.
+
+### DASK
+
+- Parallel computing library scaling existing Python ecosystem
+- Simpler than multiprocessing, provides multi-core and distributed parallel execution on larger tan memory datasets
+- Can parallelise processes that are independent from each other (when running one doesnt rely on the other input)
+
+```dask.delayed(double)(i)```
+
+Can use ```z.visualise()``` to understand the parallelisation executed by your computer
 
 
 
