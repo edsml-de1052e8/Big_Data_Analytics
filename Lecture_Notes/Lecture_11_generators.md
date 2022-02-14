@@ -1,4 +1,4 @@
-# Lecture 11: Generators
+# Lecture 11: Generators & MultiProcessing
 
 
 
@@ -14,5 +14,19 @@ NB: you cant reuse the generator, cna only be used once.
 This is called 'lazy single use iterables'
 
 - The reason why you dont get outputs directly when typing a lot of functions in Python is bc it forces memory efficiency -> mostly thru generators
+
+
+### Multiprocessing
+
+- Concurrency: two ormore calculations happen within the same time frame 
+- Parallelism: two or more calculations happend at the same moment. Special case of concurrency
+
+```Pool``` is really useful as it puts in each argument a process 1, 2 and 3 respectively for example. -> don't need join and start function 
+
+
+
+
+
+
 
 
