@@ -19,9 +19,17 @@ This is called 'lazy single use iterables'
 ### Multiprocessing
 
 - Concurrency: two ormore calculations happen within the same time frame 
-- Parallelism: two or more calculations happend at the same moment. Special case of concurrency
+- Parallelism: two or more calculations happend at the same moment. Special case of concurrency.
+Parallelise only a specific bit of code that you have identified that you can parallelise to speed up process
 
 ```Pool``` is really useful as it puts in each argument a process 1, 2 and 3 respectively for example. -> don't need join and start function 
+
+```with Pool(processes = 4) as pool:```
+```pool.map(square, numbers)```
+
+So this code does 4 jobs in parallel.
+
+### Cython
 
 
 
