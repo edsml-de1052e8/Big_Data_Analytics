@@ -20,7 +20,6 @@ Ratio between runtime of algorithm on one processor and runtime of algorithm on 
 Ideally the closer to 1 it is the better.
 
 
-
-
-
-
+DD-DA Framework: split 3D data in a cube and taking in observations. Overlap at border cases are accounted for and compensated for using a correction number.
+Example: Caspian Sea: North/South divide according to expert knowlegde, so decomposing in horizontal slices for different processors. Note that this doesn't balance the data.
+Can akso do a decomposition along time variable: 
